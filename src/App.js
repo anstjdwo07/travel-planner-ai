@@ -41,7 +41,7 @@ function App() {
       setIsLoading(true);
       setShowResult(false);
 
-      const response = await fetch("http://localhost:5000/api/plan", {
+      const response = await fetch("https://travel-planner-server-ihzv.onrender.com/api/plan", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
