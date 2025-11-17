@@ -78,9 +78,9 @@ function App() {
         objectType: "feed",
         content: {
           title: `${departure} → ${destination} 여행 계획`,
-          description: `${date} | ${people}명\nAI가 추천하는 맞춤 여행 계획을 확인하세요!`,
+          description: `${date} | ${people}명\nAI가 추천하는 맞춤 여행 계획을 확인해보세요!`,
           imageUrl:
-            "https://mud-kage.kakaocdn.net/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg",
+            "https://imgur.com/a/3MiZPWeg",
           link: {
             mobileWebUrl: window.location.href,
             webUrl: window.location.href,
